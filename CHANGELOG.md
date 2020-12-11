@@ -1,5 +1,5 @@
 ## 20201211
-* Add passwall
+* Add pass
 
 ## 20201209
 * Add vssr
