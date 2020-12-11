@@ -134,10 +134,10 @@ jobs:
           sed -i 's/pcdata(boardinfo.system or "?")/"ARMv8"/' friendlywrt/feeds/luci/modules/luci-mod-admin-full/luasrc/view/admin_status/index.htm
           sed -i 's/services/vpn/g' friendlywrt/package/feeds/luci/luci-app-openvpn/luasrc/controller/openvpn.lua
 
-      # - name: Patch Kernel
-      #   run: |
-      #     cd code/kernel/
-      #     git apply ../../patches/001-add-full_cone_nat.patch
+       - name: Patch Kernel
+         run: |
+           cd code/kernel/
+           git apply ../../patches/001-add-full_cone_nat.patch
 
       - name: Custom Configure Files
         run: |
