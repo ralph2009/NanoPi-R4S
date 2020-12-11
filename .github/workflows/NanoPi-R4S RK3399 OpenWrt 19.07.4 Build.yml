@@ -90,10 +90,10 @@ jobs:
           
           git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git
 
-          # git clone https://github.com/xiaorouji/openwrt-passwall
-          # rm -rf ./naiveproxy ./tcping
-          # cp -rf openwrt-passwall/* .
-          # rm -rf openwrt-passwall/
+          git clone https://github.com/xiaorouji/openwrt-passwall
+          rm -rf ./naiveproxy ./tcping
+          cp -rf openwrt-passwall/* .
+          rm -rf openwrt-passwall/
 
           # git clone https://github.com/NateLol/luci-app-oled
           
